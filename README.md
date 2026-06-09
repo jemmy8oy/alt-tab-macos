@@ -5,3 +5,5 @@
 <a href="https://jb.gg/OpenSource"><img src="docs/readme/sponsor.svg" alt="Sponsored by JetBrains" width="900"/></a>
 
 </div>
+
+> **Fork notice:** This is a personal fork of [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos), modified for custom deployment under the same [GPL-3.0 licence](LICENCE.md).

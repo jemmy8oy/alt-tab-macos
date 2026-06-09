@@ -7,6 +7,7 @@ class AppCenterCrash: NSObject {
 
     override init() {
         super.init()
+        guard !AppCenterCrash.secret.isEmpty else { return }
         // Enable catching uncaught exceptions thrown on the main thread
         UserDefaults.standard.register(defaults: ["NSApplicationCrashOnExceptions": true])
 //        AppCenter.logLevel = .verbose
